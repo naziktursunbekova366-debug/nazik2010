@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(228, 201, 160);
+    display: flex;
+    justify-content: center;
+}
+.pic img{
+    width: 200px;
+    height: 175px;
+    border-radius: 20px;
+    border: 2px solid rgb(213, 27, 213);
+    box-shadow: 0px 0px 3px rgb(160, 13, 97);
+}
+.block-one{
+    display: flex;
+    margin-top: 30px;
+}
+.container{
+    width: 800px;
+}
+.block-one .text{
+    margin-left: 50px;
+    
+}
+.text .p-2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(54, 30, 210);
+}
+.text .p-1{
+    color: rgb(187, 82, 26);
+}
+.text .p-3{
+    color: rgb(208, 28, 28);
+}
+.block-two{
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px rgb(204, 22, 113) ;
+    height: auto;
+    padding: 5px;
+    margin-top: 40px;
+    background-color: rgb(176, 125, 225);
+}
+.block-two .two{
+    margin-left: 50px;
+}
+.block-two:hover{
+    box-shadow: 0px 0px 10px 5px rgb(115, 81, 152);
+    transform: scale(1.1);
+}
+.block-throo{
+    width: auto;
+    border-radius: 20px; 
+    box-shadow: 0px 0px 3px 3px rgb(204, 22, 113);
+    height: auto;
+    padding: 5px;
+    margin-top: 40px;
+    background-color: rgb(215, 239, 121);
+    
+}
+.block-throo:hover{
+    box-shadow: 0px 0px 10px 5px rgb(115, 81, 152);
+    transform: scale(1.1);
+}
+.block-flve{
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px rgb(10, 198, 91);
+    height: auto;
+    padding: 5px;
+    margin-top: 40px;
+    background-color: rgb(177, 6, 37);
+}
+.block-flve:hover{
+    box-shadow: 0px 0px 10px 5px rgb(90, 72, 110);
+    transform: scale(1.1);
+}
+.f{
+    border: 2px solid;
+    height: 600px;
+    background: linear-gradient(#6b7cff,#ff6b9a);
+}
+ 
+.form-box h2{
+    width: 40%;
+    margin: 20px auto;
+    padding: 35px;
+    border-radius: 35px;
+    background: linear-gradient(#6b7cff,#ff6b9a);
+
+}
