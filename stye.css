@@ -1,0 +1,110 @@
+* {
+  background-color: rgb(246, 246, 246);
+  color: #fafbfe;
+}
+
+
+.header {
+  background: #fefeff;
+  color: rgb(255, 251, 251);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  color: rgb(254, 254, 254);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: rgb(253, 253, 249);
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: #edeeed;
+  color: rgb(242, 235, 241);
+}
+
+.btn-main {
+  padding: 10px 20px;
+  border: none;
+  background: rgb(254, 253, 253);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-main:hover {
+  background: rgb(247, 248, 248);
+  transform: scale(1.1);
+}
+
+
+.bio {
+  padding: 20px;
+}
+
+.bio img {
+  width: 100px;
+}
+
+span {
+  color: rgb(251, 248, 248);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(242, 239, 239);
+  padding: 20px;
+  width: 30%;
+}
+
+.works {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.work {
+  background: rgb(252, 252, 251);
+  padding: 20px;
+}
+
+.row-images {
+  display:flex;
+  gap: 50px;
+  justify-content: center;
+
+}
+.row-images img{
+  width: 200px;
+  height: auto;
+}
+
+.icons i {
+  font-size: 24px;
+  margin: 5px;
+}
+
+@keyframes move {
+  from {transform: translateY(0);}
+  to {transform: translateY(-10px);}
+}
+
+.animate-text {
+  animation: move 1s infinite alternate;
+}
+
+@media (max-width: 600px) {
+  .cards, .works {
+    flex-direction: column;
+  }
+}
